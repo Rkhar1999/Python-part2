@@ -1,0 +1,673 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0c74c436-c268-4ad6-ac11-248498211567",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "positive\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=1\n",
+    "if num>0:\n",
+    "    print(\"positive\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "ddab13ff-9439-4253-832c-7b993dee4407",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num=-1\n",
+    "if num>0:\n",
+    "    print(\"positive\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "3bc1834c-6b79-4e32-a2c6-da8670fad8db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "nagative\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=-19\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "else:\n",
+    "    print(\"nagative\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "1e7b273e-932c-4df1-a390-94c798f11a38",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "positive\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=1\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "else:\n",
+    "    pirnt(\"nagative\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "27dc7ef3-b3d5-4e8b-8819-d06a76513054",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "nagative\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=0\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "else:\n",
+    "    print(\"nagative\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "503a1ab1-b843-447b-a6ed-52c8ad647714",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "zero\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=0\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "elif num==0:\n",
+    "    print(\"zero\")\n",
+    "else:\n",
+    "    print(\"nagative\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "69a32caf-c22e-4e9c-a52f-e6e3d7284d4d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[13], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msebior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if num>18:\n",
+    "    print(\"young\")\n",
+    "elif num==60:\n",
+    "    print(\"adult\")\n",
+    "else:\n",
+    "    ptint(\"sebior citizen\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "355217ef-6fc2-416e-a540-90059a678684",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[15], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msenior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if num>18:\n",
+    "    print(\"young\")\n",
+    "elif num==60:\n",
+    "    print(\"adult\")\n",
+    "else:\n",
+    "    ptint(\"senior citizen\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "aa1a4a53-90f4-417f-b612-c5c2db49dba4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[17], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msebior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age>18:\n",
+    "    print(\"young\")\n",
+    "elif age==60:\n",
+    "    print(\"adult\")\n",
+    "else:\n",
+    "    ptint(\"sebior citizen\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "137ee8f7-7b52-4d57-9713-28964a005f19",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 5) (604336342.py, line 5)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[19], line 5\u001b[1;36m\u001b[0m\n\u001b[1;33m    print(\"senior citizen)\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unterminated string literal (detected at line 5)\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen)\n",
+    "else:\n",
+    "    ptint(\"sebior citizen\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "fc6445e4-d628-4fde-8f9a-15f62e41717c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[21], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msenior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msebior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen\")\n",
+    "else:\n",
+    "    ptint(\"sebior citizen\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "b227102d-c205-43a6-9f9d-e8f53c5860e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 5) (3500335092.py, line 5)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[23], line 5\u001b[1;36m\u001b[0m\n\u001b[1;33m    print(\"senior citizen)\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unterminated string literal (detected at line 5)\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen)\n",
+    "else:\n",
+    "    ptint(\"Adult\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "2c5e1796-45f3-4c83-ae0d-efb2ec589ea8",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[25], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msenior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen\")\n",
+    "else:\n",
+    "    ptint(\"adult\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "91563ce2-7732-47c9-8bd6-8d007e79e085",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[27], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msenior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=18\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen\")\n",
+    "else:\n",
+    "    ptint(\"adult\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "b14ccc50-22ca-4d20-9235-5d5f83d9afcc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ptint' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[29], line 7\u001b[0m\n\u001b[0;32m      5\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124msenior citizen\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[1;32m----> 7\u001b[0m     ptint(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124madult\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ptint' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "age=25\n",
+    "if age<18:\n",
+    "    print(\"young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen\")\n",
+    "else:\n",
+    "    ptint(\"adult\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "32010188-d711-456a-b552-13b9f35fe54c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Young\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=10\n",
+    "if age<18:\n",
+    "    print(\"Young\")\n",
+    "elif age>60:\n",
+    "    print(\"senior citizen\")\n",
+    "else:\n",
+    "    ptint(\"adult\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "7de0275c-d284-43c6-a978-0a5353427f4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1750617266.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[33], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    age=<5\u001b[0m\n\u001b[1;37m        ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=<5\n",
+    "if age<5:\n",
+    "    print(\"no entry fees\")\n",
+    "elif age>60:\n",
+    "    print(\"no entry\")\n",
+    "elif age>25:\n",
+    "print (\"entery fees is 20\")\n",
+    "else:\n",
+    "print (\"20\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "0c5f0093-d0cb-4877-acdb-2c4108d62e22",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block after 'elif' statement on line 6 (2202339898.py, line 7)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[35], line 7\u001b[1;36m\u001b[0m\n\u001b[1;33m    print (\"25\")\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mIndentationError\u001b[0m\u001b[1;31m:\u001b[0m expected an indented block after 'elif' statement on line 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "age<=5\n",
+    "if age<5:\n",
+    "    print(\"NEF\")\n",
+    "elif age>60:\n",
+    "    print(\"NEF\")\n",
+    "elif age>25:\n",
+    "    print(\"25\")\n",
+    "else:\n",
+    "    print(\"20\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "cd7973f6-3789-493a-8a93-de578c2dd177",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "age<=5\n",
+    "if age<5:\n",
+    "    print(\"NEF\")\n",
+    "elif age>60:\n",
+    "    print(\"NEF\")\n",
+    "elif age>25:\n",
+    "    print(\"25\")\n",
+    "else:\n",
+    "    print(\"20\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "60d5ce93-0697-4fe3-b109-3f8e0ac3499e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "age<=45\n",
+    "if age<5:\n",
+    "    print(\"NEF\")\n",
+    "elif age>60:\n",
+    "    print(\"NEF\")\n",
+    "elif age>25:\n",
+    "    print(\"25\")\n",
+    "else:\n",
+    "    print(\"20\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "bc8f6cb6-e3dd-4bb2-82d7-5d62cf510106",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n",
+      "12\n",
+      "13\n",
+      "14\n"
+     ]
+    }
+   ],
+   "source": [
+    "### Loops\n",
+    "for i in range(1,15):\n",
+    "    print(i)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "f478651c-fc30-4317-b322-a1d1fd5bf8e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'anme' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[43], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m name\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mRishabh\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m----> 2\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m anme:\n\u001b[0;32m      3\u001b[0m     \u001b[38;5;28mprint\u001b[39m(i)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'anme' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Rishabh\"\n",
+    "for i in anme:\n",
+    "    print(i) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "0abd29fe-0d7e-4544-b720-cb5a543834fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Name' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[45], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m name\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mRishabh\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m----> 2\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m Name:\n\u001b[0;32m      3\u001b[0m     \u001b[38;5;28mprint\u001b[39m(i)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'Name' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Rishabh\"\n",
+    "for i in Name:\n",
+    "    print(i) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "63d95bdb-d096-4884-bdfa-011cf2af3e83",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Name' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[47], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m name\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mRishabh\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m----> 2\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m Name:\n\u001b[0;32m      3\u001b[0m     \u001b[38;5;28mprint\u001b[39m(i)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'Name' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Rishabh\"\n",
+    "for i in Name:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "a4b9ad66-845c-441a-9050-28594446ec07",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "R\n",
+      "i\n",
+      "s\n",
+      "h\n",
+      "a\n",
+      "b\n",
+      "h\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Rishabh\"\n",
+    "for i in name:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "15760d53-1f92-4eda-9824-0b6732d88662",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in range "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
